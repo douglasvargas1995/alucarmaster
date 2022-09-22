@@ -60,7 +60,7 @@
                             <li><a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a></li>
                         @else
                             <li><a class="nav-link" href="{{ route('users.index') }}">Gestão Usuário</a></li>
-                            <li><a class="nav-link" href="{{ route('roles.index') }}">Gestão Permissão</a></li>
+                            <li><a class="nav-link" href="{{ route('roles.index') }}">Gestão Regras</a></li>
                             <li><a class="nav-link" href="{{ route('products.index') }}">Gestão Produto</a></li>
                             <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ Auth::user()->name }}<span class="caret"></span></a>

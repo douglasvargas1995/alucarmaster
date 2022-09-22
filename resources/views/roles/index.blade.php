@@ -27,8 +27,8 @@
 
 <table class="table table-bordered">
   <tr>
-     <th>No</th>
-     <th>Name</th>
+     <th>#</th>
+     <th>Nome</th>
      <th width="280px">Ação</th>
   </tr>
     @foreach ($roles as $key => $role)
