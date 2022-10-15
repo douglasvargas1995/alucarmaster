@@ -45,7 +45,8 @@
 	        <td>{{ $product->detail }}</td>
             <td>{{ $product->price }}</td>
             <td>{{ $product->created_at }}</td>
-	        <td>            
+	        <td>     
+
                 <a class="btn btn-info" href="{{ route('products.show',$product->id) }}">Visualizar</a>
                 @can('product-edit')
                 <a class="btn btn-primary" href="{{ route('products.edit',$product->id) }}">Editar</a>
@@ -55,7 +56,7 @@
                     {!! Form::open(['method' => 'DELETE','route' => ['products.destroy', $product->id],'style'=>'display:inline']) !!}
                         {!! Form::submit('Delete', ['class' => 'btn btn-danger']) !!}
                     {!! Form::close() !!}
-                @endcan            
+                @endcan 
 	        </td>
 	    </tr>
 	    @endforeach

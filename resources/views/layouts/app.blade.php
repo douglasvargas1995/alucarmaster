@@ -13,6 +13,7 @@
     <!-- Bootstrap core CSS antigo-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
     
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
     <!-- Bootstrap core CSS - Atualizado 20/09/2022 -->
     <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">-->
 
