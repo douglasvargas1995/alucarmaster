@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -24,6 +25,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $products = Product::latest()->paginate(10);
+        return view('products.indexHome',compact('products'))->with('i', (request()->input('page', 1) - 1) * 10);
     }
 }
